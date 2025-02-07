@@ -6,4 +6,4 @@ This repository contains the multiple sequence alignment files, phylogenetic tre
 
 ## Contents
 *  **phylogenetic_analysis:** a directory containing computational codes for phylogenetic analysis.
-*  **output_files:** a directory containing all the aligned genome sequences, recombination-free sequences, receptor-binding domain sequences of the representative viruses, the reconstructed trees (raw), and other output files (raw).
+*  **output_files:** a directory containing all the aligned genome sequences, the reconstructed trees (raw), and other output files (raw).
