@@ -1,0 +1,309 @@
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Mac OS X 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    Jarels-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: ./Desktop/Dissertation/phylogenetic-analysis/iqtree2/bin/iqtree2 -s ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/phylogenetic-analysis/sequence.output.cleaned.renamed.official.fasta -nt AUTO -mem 8G -m GTR -bb 1000
+Seed:    261080 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Tue Jan 14 18:16:02 2025
+Kernel:  SSE2 - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/phylogenetic-analysis/sequence.output.cleaned.renamed.official.fasta ... Fasta format detected
+Reading fasta file: done in 0.0483429 secs using 94.08% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.052094 secs using 565.4% CPU
+Alignment has 73 sequences with 38986 columns, 20628 distinct patterns
+21009 parsimony-informative, 5534 singleton sites, 12443 constant sites
+WARNING: Some sequence names are changed as follows:
+KT368838.1|camel/Jeddah/D46(b)/2014 -> KT368838.1|camel/Jeddah/D46_b_/2014
+KT368848.1|camel/Jeddah/N68(b)/2014 -> KT368848.1|camel/Jeddah/N68_b_/2014
+
+                                                     Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.00172687 secs using 708% CPU
+   1  OQ786862.1|MjHKU4r                                    22.50%    failed      0.00%
+   2  DQ648794.1|BtCoV/133/2005                             22.26%    failed      0.00%
+   3  EF065505.1|B04f                                       22.32%    failed      0.00%
+   4  EF065506.1|B05f                                       22.32%    failed      0.00%
+   5  EF065507.1|B07f                                       22.32%    failed      0.00%
+   6  EF065508.1|LMH1f                                      22.24%    failed      0.00%
+   7  EF065510.1|TT03f                                      21.80%    failed      0.00%
+   8  EF065511.1|TT06f                                      21.80%    failed      0.00%
+   9  EF065512.1|TT07f                                      21.80%    failed      0.00%
+  10  NC_009020.1|HKU5-1                                    21.82%    failed      0.00%
+  11  KC776174.1|Jordan-N3/2012                             22.97%    failed      1.14%
+  12  KC545386.1|ErinaceusCoV/2012-216/GER/2012             22.60%    failed      0.00%
+  13  KJ156881.1|Wadi-Ad-Dawasir_1_2013                     22.91%    failed      2.06%
+  14  KJ156944.1|Riyadh_5_2013                              22.91%    failed      2.22%
+  15  KJ473821.1|SC2013                                     21.96%    failed      0.00%
+  16  KJ473820.1|BtPa-GD2013                                21.82%    failed      0.00%
+  17  KJ473822.1|BtTp-GX2012                                22.42%    failed      0.00%
+  18  KC869678.4|Neoromicia/PML-PHE1/RSA/2011               22.77%    passed     26.94%
+  19  NC_019843.3|HCoV-EMC/2012                             22.74%    failed      0.89%
+  20  KM027260.1|Jeddah_C10306/KSA/2014-04-20               23.37%    failed      1.38%
+  21  KP209312.1|Abu                                        22.73%    failed      2.04%
+  22  KT029139.1|MERS-CoV/KOR/KNIH/002_05_2015              22.77%    failed      2.29%
+  23  KT156561.1|Hu/Oman_2874_2013                          22.73%    failed      2.12%
+  24  KT326819.1|MERS-CoV/KOR/KNIH/001_05_2015              23.06%    failed      3.08%
+  25  KT368828.1|camel/Jeddah/D100/2014                     22.74%    failed      2.66%
+  26  KT368838.1|camel/Jeddah/D46_b_/2014                   22.75%    failed      2.81%
+  27  KT368843.1|camel/Jeddah/D88/2014                      22.75%    failed      2.63%
+  28  KT368848.1|camel/Jeddah/N68_b_/2014                   22.75%    failed      2.69%
+  29  KT374050.1|KOREA/Seoul/163-2-2015                     23.48%    failed      1.60%
+  30  KT374051.1|KOREA/Seoul/163-1-2015                     23.48%    failed      1.60%
+  31  KT374052.1|KOREA/Seoul/014-1-2015                     23.48%    failed      1.55%
+  32  KT374053.1|KOREA/Seoul/014-2-2015                     23.48%    failed      1.56%
+  33  KT374054.1|KOREA/Seoul/035-1-2015                     23.48%    failed      1.47%
+  34  KT374055.1|KOREA/Seoul/035-2-2015                     23.48%    failed      1.47%
+  35  KT374056.1|KOREA/Seoul/168-1-2015                     23.48%    failed      1.62%
+  36  KT374057.1|KOREA/Seoul/168-2-2015                     23.48%    failed      1.67%
+  37  KU308549.1|Korea/Seoul/SNU1-035/2015                  22.74%    failed      2.87%
+  38  KX034094.1|MERS-CoV/KOR/Seoul/050-1-2015              22.76%    failed      2.64%
+  39  KX034095.1|MERS-CoV/KOR/Seoul/066-2015                22.75%    failed      2.93%
+  40  KX034096.1|MERS-CoV/KOR/Seoul/077-2-2015              22.84%    failed      3.20%
+  41  KX034097.1|MERS-CoV/KOR/Seoul/080-3-2015              22.75%    failed      3.03%
+  42  KX034098.1|MERS-CoV/KOR/Seoul/162-1-2015              22.78%    failed      2.47%
+  43  KX034099.1|MERS-CoV/KOR/Seoul/169-2015                22.77%    failed      2.68%
+  44  KX034100.1|MERS-CoV/KOR/Seoul/177-3-2015              22.75%    failed      2.95%
+  45  NC_034440.1|PREDICT/PDF-2180                          23.97%    failed      2.83%
+  46  KX442564.1|YD131305                                   21.77%    failed      0.00%
+  47  MF598621.1|camel/UAE_B29_2015                         22.73%    failed      2.64%
+  48  MF598623.1|camel/UAE_B31_2015                         22.73%    failed      2.94%
+  49  MF598687.1|camel/UAE_B100_2015                        22.73%    failed      2.36%
+  50  MF598689.1|camel/UAE_B102_2015                        22.74%    failed      3.24%
+  51  MG923469.1|MERS-CoV_camel/Morocco/CIRAD-HKU213/2015   24.54%    failed      0.96%
+  52  MG021452.1|NL140422                                   22.76%    passed     35.87%
+  53  NC_039207.1|ErinaceusCoV/2012-174/GER/2012            22.67%    failed      0.00%
+  54  MK052676.1|Hu/Jordan-201440011858/2014                22.73%    failed      2.23%
+  55  MK129253.1|MERS-CoV/KOR/KCDC/001_2018-TSVi            22.66%    passed      5.44%
+  56  MK796425.1|KNIH/002_05_2015                           22.78%    failed      2.43%
+  57  KJ477103.2|NRCE-HKU270                                22.79%    failed      1.18%
+  58  MK907286.1|F6                                         23.17%    failed      0.00%
+  59  MN611519.1|GZ131656                                   22.47%    failed      0.00%
+  60  MN611520.1|BY140568                                   21.74%    failed      0.00%
+  61  MT387202.1|KNIH_002                                   22.78%    failed      2.43%
+  62  MW218395.1|SM3A                                       22.41%    failed      0.00%
+  63  ON378807.1|BatCoV_B20-180                             22.77%    failed      0.00%
+  64  ON325306.1|Bat-CoV/P.nathusii/Russia/MOW15-22/2015    22.39%    failed      0.00%
+  65  LC706863.1|VsCoV-kj15                                 22.37%    failed      0.00%
+  66  LC706865.1|EjCoV-3                                    22.83%    failed      0.30%
+  67  OQ405399.1|BtCoV/P.nathusii/NL/2018-403.3             22.18%    failed      0.00%
+  68  OQ401251.1|5-129B                                     23.01%    failed      0.00%
+  69  OQ786859.1|A100                                       22.19%    failed      0.00%
+  70  NC_006577.2|HKU1                                      23.24%    failed      0.00%
+  71  EF065513.1|BF_005I                                    25.32%    failed      0.00%
+  72  KF636752.1|Zhejiang2013                               19.22%    failed      0.00%
+  73  NC_045512.2|Wuhan-Hu-1                                23.30%    failed      0.00%
+****  TOTAL                                                 22.73%  70 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: KT374051.1|KOREA/Seoul/163-1-2015 is identical to KT374050.1|KOREA/Seoul/163-2-2015 but kept for subsequent analysis
+NOTE: KT374055.1|KOREA/Seoul/035-2-2015 is identical to KT374054.1|KOREA/Seoul/035-1-2015 but kept for subsequent analysis
+NOTE: MT387202.1|KNIH_002 is identical to MK796425.1|KNIH/002_05_2015 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.00285816 secs using 662.9% CPU
+Creating fast initial parsimony tree by random order stepwise addition...
+0.093 seconds, parsimony score: 103858 (based on 26543 sites)
+Generating 1000 samples for ultrafast bootstrap (seed: 261080)...
+
+NOTE: 127 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+13 trees examined
+Threads: 1 / Time: 8.112 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -970167
+Threads: 2 / Time: 5.953 sec / Speedup: 1.363 / Efficiency: 68% / LogL: -970167
+Threads: 3 / Time: 4.207 sec / Speedup: 1.928 / Efficiency: 64% / LogL: -970167
+Threads: 4 / Time: 3.376 sec / Speedup: 2.403 / Efficiency: 60% / LogL: -970167
+Threads: 5 / Time: 4.160 sec / Speedup: 1.950 / Efficiency: 39% / LogL: -970167
+Determining AUTO threadcount: done in 25.8079 secs using 257.4% CPU
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -496580.231
+2. Current log-likelihood: -480702.233
+3. Current log-likelihood: -480613.219
+4. Current log-likelihood: -480613.087
+Optimal log-likelihood: -480613.013
+Rate parameters:  A-C: 1.58921  A-G: 2.99544  A-T: 1.66769  C-G: 1.03762  C-T: 3.63721  G-T: 1.00000
+Base frequencies:  A: 0.267  C: 0.195  G: 0.211  T: 0.327
+Parameters optimization took 4 rounds (1.608 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0436401 secs using 397.5% CPU
+Computing ML distances took 0.045258 sec (of wall-clock time) 0.179004 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000125885 secs using 342.4% CPU
+Constructing RapidNJ tree: done in 0.00165606 secs using 462.5% CPU
+Computing RapidNJ tree took 0.001869 sec (of wall-clock time) 0.008427 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -479924.048
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.987 second
+Computing log-likelihood of 98 initial trees ... 3.817 seconds
+Current best score: -479884.253
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 1.09999 secs using 390.8% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -479498.300
+Optimizing NNI: done in 0.774314 secs using 397.5% CPU
+Optimizing NNI: done in 0.981929 secs using 398.4% CPU
+Optimizing NNI: done in 1.17515 secs using 398.9% CPU
+Optimizing NNI: done in 0.966374 secs using 398.4% CPU
+Optimizing NNI: done in 1.25206 secs using 398.7% CPU
+Optimizing NNI: done in 1.02999 secs using 398.4% CPU
+Optimizing NNI: done in 0.89311 secs using 397.5% CPU
+Optimizing NNI: done in 1.10952 secs using 399.7% CPU
+Optimizing NNI: done in 0.91709 secs using 398.4% CPU
+Iteration 10 / LogL: -479501.706 / Time: 0h:0m:43s
+Optimizing NNI: done in 0.957947 secs using 398.5% CPU
+Optimizing NNI: done in 1.09798 secs using 398.3% CPU
+Optimizing NNI: done in 1.13552 secs using 398.5% CPU
+UPDATE BEST LOG-LIKELIHOOD: -479498.300
+Optimizing NNI: done in 1.10367 secs using 398.4% CPU
+Optimizing NNI: done in 0.915022 secs using 398.7% CPU
+Optimizing NNI: done in 1.14388 secs using 398.5% CPU
+Optimizing NNI: done in 0.99256 secs using 398.3% CPU
+Optimizing NNI: done in 1.00416 secs using 385.4% CPU
+Optimizing NNI: done in 0.954421 secs using 375.9% CPU
+Optimizing NNI: done in 1.14888 secs using 396.8% CPU
+Iteration 20 / LogL: -479523.638 / Time: 0h:0m:54s
+Finish initializing candidate tree set (18)
+Current best tree score: -479498.300 / CPU time: 25.897
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 1.121 secs using 390.6% CPU
+Optimizing NNI: done in 0.791458 secs using 383.3% CPU
+Optimizing NNI: done in 0.922228 secs using 391.3% CPU
+Optimizing NNI: done in 0.594393 secs using 397.4% CPU
+Optimizing NNI: done in 0.8178 secs using 397.9% CPU
+Optimizing NNI: done in 0.970741 secs using 398.3% CPU
+Optimizing NNI: done in 0.829336 secs using 397.7% CPU
+Optimizing NNI: done in 0.872108 secs using 397.8% CPU
+Optimizing NNI: done in 0.736947 secs using 397.9% CPU
+Optimizing NNI: done in 0.73612 secs using 397.9% CPU
+Iteration 30 / LogL: -479515.568 / Time: 0h:1m:2s (0h:2m:32s left)
+Optimizing NNI: done in 0.914401 secs using 398.4% CPU
+Optimizing NNI: done in 0.795318 secs using 397.8% CPU
+Optimizing NNI: done in 0.981588 secs using 395.8% CPU
+Optimizing NNI: done in 0.908835 secs using 397.9% CPU
+Optimizing NNI: done in 0.587055 secs using 397.9% CPU
+Optimizing NNI: done in 1.22088 secs using 398.3% CPU
+Optimizing NNI: done in 0.913087 secs using 397.9% CPU
+Optimizing NNI: done in 0.966778 secs using 398.3% CPU
+Optimizing NNI: done in 0.724608 secs using 398% CPU
+Optimizing NNI: done in 0.816692 secs using 397.9% CPU
+Iteration 40 / LogL: -479498.635 / Time: 0h:1m:11s (0h:1m:51s left)
+Optimizing NNI: done in 0.642116 secs using 398.4% CPU
+Optimizing NNI: done in 0.896429 secs using 397.9% CPU
+Optimizing NNI: done in 0.885851 secs using 398.3% CPU
+Optimizing NNI: done in 0.707356 secs using 398.1% CPU
+Optimizing NNI: done in 0.788137 secs using 397.8% CPU
+Optimizing NNI: done in 0.643701 secs using 398.4% CPU
+Optimizing NNI: done in 0.79843 secs using 397.9% CPU
+Optimizing NNI: done in 0.808911 secs using 397.9% CPU
+Optimizing NNI: done in 0.749662 secs using 398.5% CPU
+Optimizing NNI: done in 0.798115 secs using 397.8% CPU
+Iteration 50 / LogL: -479507.836 / Time: 0h:1m:19s (0h:1m:22s left)
+Log-likelihood cutoff on original alignment: -479720.884
+Optimizing NNI: done in 0.839588 secs using 396.4% CPU
+Optimizing NNI: done in 0.930404 secs using 399.4% CPU
+Optimizing NNI: done in 0.764191 secs using 397.8% CPU
+Optimizing NNI: done in 0.863771 secs using 398.1% CPU
+Optimizing NNI: done in 0.860605 secs using 398% CPU
+Optimizing NNI: done in 0.8778 secs using 397.5% CPU
+Optimizing NNI: done in 0.851369 secs using 399.6% CPU
+Optimizing NNI: done in 0.878345 secs using 398% CPU
+Optimizing NNI: done in 0.901945 secs using 396% CPU
+Optimizing NNI: done in 0.873776 secs using 397.7% CPU
+Iteration 60 / LogL: -479514.288 / Time: 0h:1m:28s (0h:1m:1s left)
+Optimizing NNI: done in 0.855922 secs using 398.2% CPU
+Optimizing NNI: done in 0.915524 secs using 398.1% CPU
+Optimizing NNI: done in 0.901811 secs using 397.8% CPU
+Optimizing NNI: done in 0.885876 secs using 398.2% CPU
+Optimizing NNI: done in 0.827871 secs using 398% CPU
+Optimizing NNI: done in 0.773124 secs using 398.3% CPU
+Optimizing NNI: done in 0.794598 secs using 398% CPU
+Optimizing NNI: done in 0.898969 secs using 398% CPU
+Optimizing NNI: done in 0.729255 secs using 398.4% CPU
+Optimizing NNI: done in 0.680912 secs using 397.9% CPU
+Iteration 70 / LogL: -479536.982 / Time: 0h:1m:36s (0h:0m:43s left)
+Optimizing NNI: done in 0.968791 secs using 397.2% CPU
+Optimizing NNI: done in 0.756226 secs using 399.4% CPU
+Optimizing NNI: done in 0.860054 secs using 398.2% CPU
+Optimizing NNI: done in 0.889574 secs using 398.2% CPU
+Optimizing NNI: done in 0.859097 secs using 398% CPU
+Optimizing NNI: done in 0.691227 secs using 397.8% CPU
+Optimizing NNI: done in 0.758746 secs using 398.3% CPU
+Optimizing NNI: done in 1.08955 secs using 398% CPU
+Optimizing NNI: done in 0.514602 secs using 398.7% CPU
+Optimizing NNI: done in 0.745206 secs using 397.9% CPU
+Iteration 80 / LogL: -479509.443 / Time: 0h:1m:44s (0h:0m:27s left)
+Optimizing NNI: done in 0.917409 secs using 398% CPU
+Optimizing NNI: done in 0.884037 secs using 398.4% CPU
+Optimizing NNI: done in 0.923337 secs using 398.2% CPU
+Optimizing NNI: done in 0.839141 secs using 398.3% CPU
+Optimizing NNI: done in 0.781433 secs using 394.7% CPU
+Optimizing NNI: done in 0.901294 secs using 398% CPU
+Optimizing NNI: done in 0.788635 secs using 398.6% CPU
+Optimizing NNI: done in 0.910984 secs using 389.1% CPU
+Optimizing NNI: done in 0.763023 secs using 397.3% CPU
+Optimizing NNI: done in 0.927839 secs using 399% CPU
+Iteration 90 / LogL: -479498.454 / Time: 0h:1m:53s (0h:0m:14s left)
+Optimizing NNI: done in 1.01814 secs using 398.1% CPU
+Optimizing NNI: done in 0.679264 secs using 399.1% CPU
+Optimizing NNI: done in 0.963642 secs using 398% CPU
+Optimizing NNI: done in 0.736995 secs using 398.4% CPU
+Optimizing NNI: done in 1.00244 secs using 398% CPU
+Optimizing NNI: done in 0.839432 secs using 398.1% CPU
+Optimizing NNI: done in 0.893774 secs using 398.5% CPU
+Optimizing NNI: done in 0.818227 secs using 398% CPU
+Optimizing NNI: done in 0.809917 secs using 397.9% CPU
+Optimizing NNI: done in 0.904086 secs using 397.9% CPU
+Iteration 100 / LogL: -483447.954 / Time: 0h:2m:2s (0h:0m:1s left)
+Log-likelihood cutoff on original alignment: -479658.576
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.991
+Optimizing NNI: done in 0.775777 secs using 395.8% CPU
+Optimizing NNI: done in 1.04621 secs using 399.3% CPU
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:2m:4s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -479498.300
+2. Current log-likelihood: -479498.247
+3. Current log-likelihood: -479498.199
+4. Current log-likelihood: -479498.161
+Optimal log-likelihood: -479498.157
+Rate parameters:  A-C: 1.59150  A-G: 3.01081  A-T: 1.67375  C-G: 1.03314  C-T: 3.66665  G-T: 1.00000
+Base frequencies:  A: 0.267  C: 0.195  G: 0.211  T: 0.327
+Parameters optimization took 4 rounds (0.520 sec)
+BEST SCORE FOUND : -479498.157
+Creating bootstrap support values...
+Split supports printed to NEXUS file ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/phylogenetic-analysis/sequence.output.cleaned.renamed.official.fasta.splits.nex
+Total tree length: 4.373
+
+Total number of iterations: 102
+CPU time used for tree search: 382.244 sec (0h:6m:22s)
+Wall-clock time used for tree search: 96.285 sec (0h:1m:36s)
+Total CPU time used: 460.857 sec (0h:7m:40s)
+Total wall-clock time used: 125.089 sec (0h:2m:5s)
+
+Computing bootstrap consensus tree...
+Reading input file ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/phylogenetic-analysis/sequence.output.cleaned.renamed.official.fasta.splits.nex...
+73 taxa and 285 splits.
+Consensus tree written to ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/phylogenetic-analysis/sequence.output.cleaned.renamed.official.fasta.contree
+Reading input trees file ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/phylogenetic-analysis/sequence.output.cleaned.renamed.official.fasta.contree
+Log-likelihood of consensus tree: -479499.503
+
+Analysis results written to: 
+  IQ-TREE report:                ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/phylogenetic-analysis/sequence.output.cleaned.renamed.official.fasta.iqtree
+  Maximum-likelihood tree:       ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/phylogenetic-analysis/sequence.output.cleaned.renamed.official.fasta.treefile
+  Likelihood distances:          ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/phylogenetic-analysis/sequence.output.cleaned.renamed.official.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/phylogenetic-analysis/sequence.output.cleaned.renamed.official.fasta.splits.nex
+  Consensus tree:                ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/phylogenetic-analysis/sequence.output.cleaned.renamed.official.fasta.contree
+  Screen log file:               ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/phylogenetic-analysis/sequence.output.cleaned.renamed.official.fasta.log
+
+Date and Time: Tue Jan 14 18:18:07 2025
