@@ -1,0 +1,32 @@
+Merbeco_neut
+
+---mafft---
+./mafft.bat #input.fasta > #output.fasta
+
+./Desktop/Dissertation/phylogenetic-analysis/mafft-mac/mafft.bat ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/sequence.fasta > ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/sequence.output.fasta
+
+---python3---
+
+#python3.11 clean_fasta.py ${name}.aligned.fasta ${name}.aligned.cleaned.fasta
+
+python3.11 ./Desktop/Dissertation/phylogenetic-analysis/clean_fasta.py ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/sequence.output.fasta ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/sequence.output.cleaned.fasta
+
+
+---change-names--in-R----
+
+filename: sequence.output.cleaned.renamed.official.fasta
+
+
+---iq_tree---
+--use-renamed.fasta---
+#./iqtree2 -s $input.fasta -nt AUTO -mem 8G -m GTR -bb 1000
+
+./Desktop/Dissertation/phylogenetic-analysis/iqtree2/bin/iqtree2 -s ./Desktop/Dissertation/phylogenetic-analysis/projects/Merbecovirus/240830_MERSr-phylotree-Lin/Merbecovirus_neutralization/run/sequence.output.cleaned.renamed.official.fasta -nt AUTO -mem 8G -m GTR -bb 1000
+
+--snipit- nucleotide
+
+snipit $fasta --height 2 --width 30 --solid-background
+
+
+--snipit- protein
+snipit $fasta --sequence-type aa --colour-palette ugene --height 2 --width 30 --solid-background

@@ -1,0 +1,14 @@
+Phylogenetic-analysis
+1. Get the INSD XML file
+2. Download the fasta file
+3. Align using MAFFT using complete genome sequences
+4. Cleaned the aligned sequences (sequence.output.cleaned.fasta)
+5. Change names in R
+6. Perform phylogenetic analysis
+
+Sequence-alignment
+1. get the 'sequence.output.fasta' -> 'spike.output.fasta'
+2. extract the spike only (using EMC as the reference).
+3. delete all gaps then translate to amino acids.
+4. perform MAFFT
+5. use the spike aligned: spike.output.fasta
